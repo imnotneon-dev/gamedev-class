@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-public class CheckpointTrigger : MonoBehaviour
+public class MovingPlatformHorizontalRight : MonoBehaviour
 {
     [SerializeField]
     GameObject obj;
@@ -15,9 +15,9 @@ public class CheckpointTrigger : MonoBehaviour
     void Start()
     {
         pos = obj.transform.position;
-        if (File.Exists(Application.persistentDataPath + "/rotationdata.json"))
+        if (File.Exists(Application.persistentDataPath + "/horizontaldata.json"))
         {
-            var data = JsonUtility.FromJson<Vector3>(Application.persistentDataPath + "/rotationdata.json");
+            var data = JsonUtility.FromJson<Vector3>(Application.persistentDataPath + "/horizontaldata.json");
         }
     }
 
@@ -25,14 +25,14 @@ public class CheckpointTrigger : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            obj.transform.Rotate(Vector3.up, 90);
+            obj.transform.position += new Vector3(3, 0, 0);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        string data = JsonUtility.ToJson(obj.transform.rotation);
-        File.WriteAllText(Application.persistentDataPath + "/rotationdata.json", data);
+        string data = JsonUtility.ToJson(obj.transform.position);
+        File.WriteAllText(Application.persistentDataPath + "/horizontaldata.json", data);
     }
 
     private void OnTriggerStay(Collider other)

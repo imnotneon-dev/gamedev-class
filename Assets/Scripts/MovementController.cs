@@ -6,30 +6,59 @@ using UnityEngine.InputSystem;
 
 public class MovementController : MonoBehaviour
 {
-
     [SerializeField]
     PlayerStats stats;
 
-    Vector2 moveInput;
+    [SerializeField]
+    Transform spawnPoint;
 
     [SerializeField]
     float moveSpeed = 5f;
 
-    //[SerializeField]
+    [SerializeField]
+    float sprintSpeed = 10f;
+
+    [SerializeField]
+    float jumpForce = 0.5f;
+
+    [SerializeField]
+    float gravity = -19.62f;
+
+    [SerializeField]
+    float playerFall = -10f;
+
+    float verticalVelocity;
+    bool isSprinting;
+    Vector2 moveInput;
     CharacterController controller;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         controller = GetComponent<CharacterController>();
-
-        //Debug.Log(stats.Health);
     }
 
     // Update is called once per frame
     void Update()
     {
-        controller.Move(moveSpeed * Time.deltaTime * new Vector3(moveInput.x, 0, moveInput.y));
+        if (transform.position.y < playerFall)
+        {
+            Respawn();
+        }
+
+        if (controller.isGrounded && verticalVelocity < 0)
+        {
+            verticalVelocity = -2f;
+        }
+
+        Vector3 move = transform.right * moveInput.x + transform.forward * moveInput.y;
+
+        verticalVelocity += gravity * Time.deltaTime;
+
+        float currentSpeed = isSprinting ? sprintSpeed : moveSpeed;
+
+        Vector3 velocity = (move * currentSpeed) + (Vector3.up * verticalVelocity);
+        controller.Move(velocity * Time.deltaTime);
     }
 
     public void OnMove(InputValue value)
@@ -39,6 +68,28 @@ public class MovementController : MonoBehaviour
 
     public void OnJump(InputValue value)
     {
-        stats.Health += 10;
+        if (value.isPressed)
+        {
+            if (controller.isGrounded)
+            {
+                verticalVelocity = Mathf.Sqrt(jumpForce * -1f * gravity);
+            }
+        }
+    }
+    public void OnSprint(InputValue value)
+    {
+        isSprinting = value.isPressed;
+    }
+    public void Respawn()
+    {
+        if (spawnPoint != null)
+        {
+            controller.enabled = false;
+
+            verticalVelocity = 0f;
+            transform.position = spawnPoint.position;
+
+            controller.enabled = true;
+        }
     }
 }
