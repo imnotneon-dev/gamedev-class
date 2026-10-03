@@ -12,11 +12,10 @@ GameObject:
   - component: {fileID: 6113704312051255684}
   - component: {fileID: 1929323839582056369}
   - component: {fileID: 8636596825373173403}
-  - component: {fileID: 8962789901835638647}
-  - component: {fileID: 7706010405337832153}
+  - component: {fileID: 8062759419526397727}
   m_Layer: 0
   m_Name: Laser (11)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,24 +115,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &8962789901835638647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 194831011480199632}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &7706010405337832153
+--- !u!114 &8062759419526397727
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,8 +130,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &572410743506452135
 GameObject:
   m_ObjectHideFlags: 0
@@ -162,11 +144,10 @@ GameObject:
   - component: {fileID: 5486947313086936615}
   - component: {fileID: 3615608162539446302}
   - component: {fileID: 5729530784769541053}
-  - component: {fileID: 2913797287060675698}
-  - component: {fileID: 461420500510832538}
+  - component: {fileID: 7296063977256291368}
   m_Layer: 0
   m_Name: Laser (21)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -266,24 +247,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &2913797287060675698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572410743506452135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &461420500510832538
+--- !u!114 &7296063977256291368
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -298,8 +262,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &758209393911627395
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,11 +276,10 @@ GameObject:
   - component: {fileID: 2998389821884439422}
   - component: {fileID: 4329659617843788252}
   - component: {fileID: 6153395532523141915}
-  - component: {fileID: 8236489303988339886}
-  - component: {fileID: 7428889125515252759}
+  - component: {fileID: 7090109177785951495}
   m_Layer: 0
   m_Name: Laser (9)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -416,24 +379,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &8236489303988339886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 758209393911627395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &7428889125515252759
+--- !u!114 &7090109177785951495
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -448,8 +394,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &1025338192171583515
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,11 +408,10 @@ GameObject:
   - component: {fileID: 67628475681506344}
   - component: {fileID: 1972123992899711221}
   - component: {fileID: 2531202050765807954}
-  - component: {fileID: 6536552234415584347}
-  - component: {fileID: 2499551080979758338}
+  - component: {fileID: 4468388247707430794}
   m_Layer: 0
   m_Name: Laser (34)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -566,24 +511,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &6536552234415584347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1025338192171583515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &2499551080979758338
+--- !u!114 &4468388247707430794
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -598,8 +526,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &1074779610800370162
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,11 +540,10 @@ GameObject:
   - component: {fileID: 8538005853200982282}
   - component: {fileID: 520703299763836352}
   - component: {fileID: 8185145575030414785}
-  - component: {fileID: 7654711701288748334}
-  - component: {fileID: 3413429686338634313}
+  - component: {fileID: 1045962455604405044}
   m_Layer: 0
   m_Name: Laser (39)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -716,24 +643,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &7654711701288748334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1074779610800370162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &3413429686338634313
+--- !u!114 &1045962455604405044
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -748,8 +658,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &1168970761038825611
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,11 +672,10 @@ GameObject:
   - component: {fileID: 7002374154931961679}
   - component: {fileID: 8413566834557890754}
   - component: {fileID: 685139160901283351}
-  - component: {fileID: 3524228693488330540}
-  - component: {fileID: 1104603408328448857}
+  - component: {fileID: 7151895190312208997}
   m_Layer: 0
   m_Name: Laser (17)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -866,24 +775,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &3524228693488330540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1168970761038825611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &1104603408328448857
+--- !u!114 &7151895190312208997
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -898,8 +790,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &1238716745138916391
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,11 +804,10 @@ GameObject:
   - component: {fileID: 5350688319637041078}
   - component: {fileID: 8638604214521599886}
   - component: {fileID: 5257226910271163186}
-  - component: {fileID: 4518835419123002464}
-  - component: {fileID: 5778535351309481382}
+  - component: {fileID: 2475495971949167473}
   m_Layer: 0
   m_Name: Laser (3)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1016,24 +907,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &4518835419123002464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1238716745138916391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &5778535351309481382
+--- !u!114 &2475495971949167473
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1048,8 +922,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &1893781942131466076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1062,11 +936,10 @@ GameObject:
   - component: {fileID: 4602403558564056190}
   - component: {fileID: 965047403812636827}
   - component: {fileID: 7538897123418274860}
-  - component: {fileID: 472535827992126990}
-  - component: {fileID: 8052739539816119354}
+  - component: {fileID: 6083277116118084410}
   m_Layer: 0
   m_Name: Laser (30)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1166,24 +1039,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &472535827992126990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1893781942131466076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &8052739539816119354
+--- !u!114 &6083277116118084410
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1198,8 +1054,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &2085483665758161309
 GameObject:
   m_ObjectHideFlags: 0
@@ -1212,11 +1068,10 @@ GameObject:
   - component: {fileID: 9160778941954938993}
   - component: {fileID: 7851980781129751989}
   - component: {fileID: 5315324836722365279}
-  - component: {fileID: 2609558831582736808}
-  - component: {fileID: 4607818567463031064}
+  - component: {fileID: 3079495872157801912}
   m_Layer: 0
   m_Name: Laser (32)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1316,24 +1171,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &2609558831582736808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2085483665758161309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &4607818567463031064
+--- !u!114 &3079495872157801912
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1348,8 +1186,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &2085605559068599691
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,11 +1200,10 @@ GameObject:
   - component: {fileID: 1797530407572571017}
   - component: {fileID: 955439923293773249}
   - component: {fileID: 6359032852430216693}
-  - component: {fileID: 1316218748732586662}
-  - component: {fileID: 5973687192361625733}
+  - component: {fileID: 7969726616301115994}
   m_Layer: 0
   m_Name: Laser
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1466,24 +1303,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &1316218748732586662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2085605559068599691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &5973687192361625733
+--- !u!114 &7969726616301115994
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1498,8 +1318,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &2476320141998668281
 GameObject:
   m_ObjectHideFlags: 0
@@ -1512,11 +1332,10 @@ GameObject:
   - component: {fileID: 2387165306756184478}
   - component: {fileID: 1516579655809202770}
   - component: {fileID: 5530557062361036311}
-  - component: {fileID: 5946676263422976870}
-  - component: {fileID: 5512262939226985574}
+  - component: {fileID: 6117257021723082214}
   m_Layer: 0
   m_Name: Laser (37)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1616,24 +1435,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &5946676263422976870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2476320141998668281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &5512262939226985574
+--- !u!114 &6117257021723082214
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1648,8 +1450,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &2734505680226883272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1662,11 +1464,10 @@ GameObject:
   - component: {fileID: 6320822926884130463}
   - component: {fileID: 6647364559016963633}
   - component: {fileID: 8575627139440697659}
-  - component: {fileID: 4711937961529069351}
-  - component: {fileID: 1298610548843227691}
+  - component: {fileID: 2383292035506254152}
   m_Layer: 0
   m_Name: Laser (2)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1766,24 +1567,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &4711937961529069351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2734505680226883272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &1298610548843227691
+--- !u!114 &2383292035506254152
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1798,8 +1582,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &2869609646427255909
 GameObject:
   m_ObjectHideFlags: 0
@@ -1812,11 +1596,10 @@ GameObject:
   - component: {fileID: 7010328347089094573}
   - component: {fileID: 4631801289408629214}
   - component: {fileID: 5837602275994354805}
-  - component: {fileID: 3147614220667229670}
-  - component: {fileID: 3728073700878461225}
+  - component: {fileID: 6953481533773525027}
   m_Layer: 0
   m_Name: Laser (10)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1916,24 +1699,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &3147614220667229670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2869609646427255909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &3728073700878461225
+--- !u!114 &6953481533773525027
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1948,8 +1714,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &3001226985011128206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1962,11 +1728,10 @@ GameObject:
   - component: {fileID: 1863507660554476858}
   - component: {fileID: 3763602800765261139}
   - component: {fileID: 8283466210353341320}
-  - component: {fileID: 2116304898374402850}
-  - component: {fileID: 8999290759441959156}
+  - component: {fileID: 9057588362664054796}
   m_Layer: 0
   m_Name: Laser (29)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2066,24 +1831,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &2116304898374402850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3001226985011128206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &8999290759441959156
+--- !u!114 &9057588362664054796
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2098,8 +1846,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &3992963042295108762
 GameObject:
   m_ObjectHideFlags: 0
@@ -2112,11 +1860,10 @@ GameObject:
   - component: {fileID: 1639550974546979626}
   - component: {fileID: 5429049259680582535}
   - component: {fileID: 2295841003444228624}
-  - component: {fileID: 8822511985246150865}
-  - component: {fileID: 6314300853035478685}
+  - component: {fileID: 4242404742923402951}
   m_Layer: 0
   m_Name: Laser (4)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2216,24 +1963,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &8822511985246150865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3992963042295108762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &6314300853035478685
+--- !u!114 &4242404742923402951
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2248,8 +1978,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &4194374320038709684
 GameObject:
   m_ObjectHideFlags: 0
@@ -2262,11 +1992,10 @@ GameObject:
   - component: {fileID: 8066647058118277281}
   - component: {fileID: 5570206977292098996}
   - component: {fileID: 3606746435959265750}
-  - component: {fileID: 676979361216035265}
-  - component: {fileID: 3907175841448800258}
+  - component: {fileID: 5318305487878952535}
   m_Layer: 0
   m_Name: Laser (28)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2366,24 +2095,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &676979361216035265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4194374320038709684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &3907175841448800258
+--- !u!114 &5318305487878952535
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2398,8 +2110,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &4638975699455811589
 GameObject:
   m_ObjectHideFlags: 0
@@ -2412,11 +2124,10 @@ GameObject:
   - component: {fileID: 8554209695394403646}
   - component: {fileID: 7791311606045526545}
   - component: {fileID: 7462107669950645449}
-  - component: {fileID: 2417118816199899811}
-  - component: {fileID: 5856390439905334526}
+  - component: {fileID: 6627273458561295213}
   m_Layer: 0
   m_Name: Laser (12)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2516,24 +2227,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &2417118816199899811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4638975699455811589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &5856390439905334526
+--- !u!114 &6627273458561295213
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2548,8 +2242,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &5042417960520975969
 GameObject:
   m_ObjectHideFlags: 0
@@ -2562,11 +2256,10 @@ GameObject:
   - component: {fileID: 3911032525979065339}
   - component: {fileID: 4239219536853586467}
   - component: {fileID: 6589190914849271407}
-  - component: {fileID: 4847121503225721298}
-  - component: {fileID: 2403256977480529454}
+  - component: {fileID: 8687451601066264604}
   m_Layer: 0
   m_Name: Laser (38)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2666,24 +2359,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &4847121503225721298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5042417960520975969}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &2403256977480529454
+--- !u!114 &8687451601066264604
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2698,8 +2374,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &5423420173773715801
 GameObject:
   m_ObjectHideFlags: 0
@@ -2712,11 +2388,10 @@ GameObject:
   - component: {fileID: 1149220978289317938}
   - component: {fileID: 2761938132555868956}
   - component: {fileID: 4260955902234556047}
-  - component: {fileID: 5303696333766430803}
-  - component: {fileID: 1622263060300008697}
+  - component: {fileID: 2128151558343854300}
   m_Layer: 0
   m_Name: Laser (31)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2816,24 +2491,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &5303696333766430803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5423420173773715801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &1622263060300008697
+--- !u!114 &2128151558343854300
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2848,8 +2506,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &5718279647477712205
 GameObject:
   m_ObjectHideFlags: 0
@@ -2862,11 +2520,10 @@ GameObject:
   - component: {fileID: 8756807308959102090}
   - component: {fileID: 4174529471788494489}
   - component: {fileID: 1475034660401688404}
-  - component: {fileID: 3045170292103271176}
-  - component: {fileID: 8272521363084749915}
+  - component: {fileID: 6587549261346885541}
   m_Layer: 0
   m_Name: Laser (1)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2966,24 +2623,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &3045170292103271176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5718279647477712205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &8272521363084749915
+--- !u!114 &6587549261346885541
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2998,8 +2638,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &5946448147099256478
 GameObject:
   m_ObjectHideFlags: 0
@@ -3012,11 +2652,10 @@ GameObject:
   - component: {fileID: 4043525246392670242}
   - component: {fileID: 6669273834332344499}
   - component: {fileID: 6775400569458541313}
-  - component: {fileID: 3856570821973421809}
-  - component: {fileID: 2362859933994015172}
+  - component: {fileID: 4495451485505275510}
   m_Layer: 0
   m_Name: Laser (40)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3116,24 +2755,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &3856570821973421809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5946448147099256478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &2362859933994015172
+--- !u!114 &4495451485505275510
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3148,8 +2770,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &5950415273722483201
 GameObject:
   m_ObjectHideFlags: 0
@@ -3162,11 +2784,10 @@ GameObject:
   - component: {fileID: 5015910826410333050}
   - component: {fileID: 6649726013930727641}
   - component: {fileID: 6338851950421412677}
-  - component: {fileID: 4390386530636901165}
-  - component: {fileID: 5127756638613580797}
+  - component: {fileID: 1774224917855789824}
   m_Layer: 0
   m_Name: Laser (5)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3266,24 +2887,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &4390386530636901165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5950415273722483201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &5127756638613580797
+--- !u!114 &1774224917855789824
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3298,8 +2902,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &6184018456520409163
 GameObject:
   m_ObjectHideFlags: 0
@@ -3312,11 +2916,10 @@ GameObject:
   - component: {fileID: 6490773222102733130}
   - component: {fileID: 7230190865048648250}
   - component: {fileID: 2123007202364271208}
-  - component: {fileID: 4206959896897834144}
-  - component: {fileID: 3480949048512670524}
+  - component: {fileID: 2757999637254503717}
   m_Layer: 0
   m_Name: Laser (7)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3416,24 +3019,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &4206959896897834144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6184018456520409163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &3480949048512670524
+--- !u!114 &2757999637254503717
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3448,8 +3034,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &6332488532966563669
 GameObject:
   m_ObjectHideFlags: 0
@@ -3462,11 +3048,10 @@ GameObject:
   - component: {fileID: 5220388200653372228}
   - component: {fileID: 7189408117683948305}
   - component: {fileID: 6568914886324823795}
-  - component: {fileID: 6622391318519806399}
-  - component: {fileID: 2950751415857580564}
+  - component: {fileID: 6948497163339332179}
   m_Layer: 0
   m_Name: Laser (8)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3566,24 +3151,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &6622391318519806399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6332488532966563669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &2950751415857580564
+--- !u!114 &6948497163339332179
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3598,8 +3166,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &6831634989425797667
 GameObject:
   m_ObjectHideFlags: 0
@@ -3612,11 +3180,10 @@ GameObject:
   - component: {fileID: 3905761895803597463}
   - component: {fileID: 4688295288850344499}
   - component: {fileID: 2937378569700446266}
-  - component: {fileID: 5285747506087823920}
-  - component: {fileID: 4423180546113657363}
+  - component: {fileID: 7401310960169622122}
   m_Layer: 0
   m_Name: Laser (16)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3716,24 +3283,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &5285747506087823920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6831634989425797667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &4423180546113657363
+--- !u!114 &7401310960169622122
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3748,8 +3298,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &6909222549385723837
 GameObject:
   m_ObjectHideFlags: 0
@@ -3762,11 +3312,10 @@ GameObject:
   - component: {fileID: 6406433097051490434}
   - component: {fileID: 907404618906422508}
   - component: {fileID: 6972131492763005797}
-  - component: {fileID: 2893753860524577800}
-  - component: {fileID: 301856711841307180}
+  - component: {fileID: 4367571394007790461}
   m_Layer: 0
   m_Name: Laser (23)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3866,24 +3415,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &2893753860524577800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6909222549385723837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &301856711841307180
+--- !u!114 &4367571394007790461
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3898,8 +3430,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &7280211116113326443
 GameObject:
   m_ObjectHideFlags: 0
@@ -3909,7 +3441,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 738793808347080705}
-  - component: {fileID: 5614642836796785814}
+  - component: {fileID: -9158886788752177261}
   m_Layer: 0
   m_Name: LaserWall
   m_TagString: Untagged
@@ -3967,7 +3499,7 @@ Transform:
   - {fileID: 5991485753174091307}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5614642836796785814
+--- !u!114 &-9158886788752177261
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3982,7 +3514,7 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
+  speed: 15
   damage: 10
 --- !u!1 &7483705988286241864
 GameObject:
@@ -3996,11 +3528,10 @@ GameObject:
   - component: {fileID: 165200706035172535}
   - component: {fileID: 6406582369481456324}
   - component: {fileID: 6984615661449567526}
-  - component: {fileID: 4550663899631523662}
-  - component: {fileID: 6913168224281086698}
+  - component: {fileID: 5486022258229197937}
   m_Layer: 0
   m_Name: Laser (13)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4100,24 +3631,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &4550663899631523662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7483705988286241864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &6913168224281086698
+--- !u!114 &5486022258229197937
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4132,8 +3646,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &7971311049458248206
 GameObject:
   m_ObjectHideFlags: 0
@@ -4146,11 +3660,10 @@ GameObject:
   - component: {fileID: 3670915941879078995}
   - component: {fileID: 1509077293357634082}
   - component: {fileID: 3948171310880407953}
-  - component: {fileID: 1083983536486557449}
-  - component: {fileID: 7046332546215061887}
+  - component: {fileID: 5044243517802355178}
   m_Layer: 0
   m_Name: Laser (35)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4250,24 +3763,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &1083983536486557449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7971311049458248206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &7046332546215061887
+--- !u!114 &5044243517802355178
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4282,8 +3778,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &8031546992689240925
 GameObject:
   m_ObjectHideFlags: 0
@@ -4296,11 +3792,10 @@ GameObject:
   - component: {fileID: 7955262758456899702}
   - component: {fileID: 1492156622899925874}
   - component: {fileID: 2965167791378992447}
-  - component: {fileID: 6142757900205229525}
-  - component: {fileID: 3200469590972846181}
+  - component: {fileID: 7551509926176149320}
   m_Layer: 0
   m_Name: Laser (25)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4400,24 +3895,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &6142757900205229525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8031546992689240925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &3200469590972846181
+--- !u!114 &7551509926176149320
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4432,8 +3910,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &8277536159662006116
 GameObject:
   m_ObjectHideFlags: 0
@@ -4446,11 +3924,10 @@ GameObject:
   - component: {fileID: 4866237930254061431}
   - component: {fileID: 1331737938045078765}
   - component: {fileID: 5355748230100985449}
-  - component: {fileID: 7020843828661818727}
-  - component: {fileID: 5757351227916645387}
+  - component: {fileID: 8218354479609284348}
   m_Layer: 0
   m_Name: Laser (27)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4550,24 +4027,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &7020843828661818727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8277536159662006116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &5757351227916645387
+--- !u!114 &8218354479609284348
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4582,8 +4042,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &8438295649031436266
 GameObject:
   m_ObjectHideFlags: 0
@@ -4596,11 +4056,10 @@ GameObject:
   - component: {fileID: 224829328362321915}
   - component: {fileID: 968649554913526044}
   - component: {fileID: 3248631821804962008}
-  - component: {fileID: 1687885730299907632}
-  - component: {fileID: 8773762648943350916}
+  - component: {fileID: 6214300078264424525}
   m_Layer: 0
   m_Name: Laser (36)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4700,24 +4159,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &1687885730299907632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8438295649031436266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &8773762648943350916
+--- !u!114 &6214300078264424525
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4732,8 +4174,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &8513754792912531546
 GameObject:
   m_ObjectHideFlags: 0
@@ -4746,11 +4188,10 @@ GameObject:
   - component: {fileID: 4280367964605991594}
   - component: {fileID: 4375492140849650027}
   - component: {fileID: 8677984616291399866}
-  - component: {fileID: 3382110258956713963}
-  - component: {fileID: 836742346237575898}
+  - component: {fileID: 6876202042166314882}
   m_Layer: 0
   m_Name: Laser (22)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4850,24 +4291,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &3382110258956713963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8513754792912531546}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &836742346237575898
+--- !u!114 &6876202042166314882
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4882,8 +4306,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &8774023981383768197
 GameObject:
   m_ObjectHideFlags: 0
@@ -4896,11 +4320,10 @@ GameObject:
   - component: {fileID: 8218578937462573131}
   - component: {fileID: 1137035349541436611}
   - component: {fileID: 5402927341629616206}
-  - component: {fileID: 2494175346197150583}
-  - component: {fileID: 3394012432052463550}
+  - component: {fileID: 2760540754772917432}
   m_Layer: 0
   m_Name: Laser (6)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5000,24 +4423,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &2494175346197150583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8774023981383768197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &3394012432052463550
+--- !u!114 &2760540754772917432
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5032,8 +4438,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &8908426173117881610
 GameObject:
   m_ObjectHideFlags: 0
@@ -5046,11 +4452,10 @@ GameObject:
   - component: {fileID: 5152622371669597384}
   - component: {fileID: 3695379920778196438}
   - component: {fileID: 5297784951774705724}
-  - component: {fileID: 3768865413060417157}
-  - component: {fileID: 1351665282979348245}
+  - component: {fileID: 6006498365045030319}
   m_Layer: 0
   m_Name: Laser (33)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5150,24 +4555,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &3768865413060417157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8908426173117881610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &1351665282979348245
+--- !u!114 &6006498365045030319
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5182,8 +4570,8 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10
 --- !u!1 &9159252238337347242
 GameObject:
   m_ObjectHideFlags: 0
@@ -5196,11 +4584,10 @@ GameObject:
   - component: {fileID: 6954215809603714315}
   - component: {fileID: 4337945095046569194}
   - component: {fileID: 8008825135886488845}
-  - component: {fileID: 7782190831247766925}
-  - component: {fileID: 122072694680194814}
+  - component: {fileID: 5940082150747437011}
   m_Layer: 0
   m_Name: Laser (18)
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5300,24 +4687,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &7782190831247766925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9159252238337347242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed663c0d8dc169948ac8786faea854a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  OnLaserHit:
-    m_PersistentCalls:
-      m_Calls: []
-  speed: 10
-  damage: 25
---- !u!114 &122072694680194814
+--- !u!114 &5940082150747437011
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5332,5 +4702,5 @@ MonoBehaviour:
   OnLaserHit:
     m_PersistentCalls:
       m_Calls: []
-  speed: 10
-  damage: 25
+  speed: 30
+  damage: 10

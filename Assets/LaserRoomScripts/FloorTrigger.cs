@@ -6,18 +6,24 @@ public class FloorTrigger : MonoBehaviour
     [SerializeField] private float healAmount = 10f;
     public UnityEvent OnFloorTriggered;
 
+    private bool hasBeenSteppedOn = false;
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (hasBeenSteppedOn) 
+            return;
+
+        if (other.CompareTag("Player") || other.transform.root.CompareTag("Player"))
         {
-            if (other.TryGetComponent<PlayerStatsManager>(out var statsManager))
+            hasBeenSteppedOn = true;
+
+            PlayerStatsManager statsManager = other.GetComponentInParent<PlayerStatsManager>();
+            if (statsManager != null)
             {
                 statsManager.Heal(healAmount);
-                Debug.Log("Healed 10 HP!");
             }
 
             OnFloorTriggered?.Invoke();
-
             gameObject.SetActive(false);
         }
     }
