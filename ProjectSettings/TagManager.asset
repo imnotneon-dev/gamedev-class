@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Pickup
   - ENV
+  - CinemachineTarget
+  - Laser
   layers:
   - Default
   - TransparentFX
