@@ -8,6 +8,8 @@ TagManager:
   - ENV
   - CinemachineTarget
   - Laser
+  - Floor
+  - Can
   layers:
   - Default
   - TransparentFX
