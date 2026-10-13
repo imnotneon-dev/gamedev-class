@@ -4,15 +4,17 @@ using UnityEngine;
 public class Can : MonoBehaviour
 {
     public bool IsKnockedDown { get; private set; } = false;
-    private Vector3 startPosition;
-    private Quaternion startRotation;
+
+    private Vector3 startLocalPosition;
+    private Quaternion startLocalRotation;
     private Rigidbody rb;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        startPosition = transform.position;
-        startRotation = transform.rotation;
+
+        startLocalPosition = transform.localPosition;
+        startLocalRotation = transform.localRotation;
     }
 
     private void Start()
@@ -32,8 +34,8 @@ public class Can : MonoBehaviour
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
 
-        transform.position = startPosition;
-        transform.rotation = startRotation;
+        transform.localPosition = startLocalPosition;
+        transform.localRotation = startLocalRotation;
 
         rb.Sleep();
     }

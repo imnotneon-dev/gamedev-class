@@ -10,6 +10,7 @@ TagManager:
   - Laser
   - Floor
   - Can
+  - Ball
   layers:
   - Default
   - TransparentFX
