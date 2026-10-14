@@ -28,7 +28,7 @@ public class SpeedBoostTrigger : MonoBehaviour
 
     private IEnumerator ApplySpeedBoost(GameObject player)
     {
-        var controller = player.GetComponent<StarterAssets.ThirdPersonController>();
+        var controller = player.GetComponent<StarterAssets.FirstPersonController>();
 
         if (controller != null)
         {
