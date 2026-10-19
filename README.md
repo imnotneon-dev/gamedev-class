@@ -1,4 +1,4 @@
-# GAMEDEV - Gameplay Laser Room
+# GAMEDEV - Prototyping 2: Ray-OE Zoning
 
 **Student Name:** Jenrick Lim
 
@@ -6,16 +6,18 @@
 
 ### Video Showcase
 
-Please access the screen recording of the gameplay demo either in the **`Documentations/`** folder (`Documentations/Gameplay Laser Demo.mp4`) or through this link: (https://drive.google.com/file/d/1SItXao08QAfb6An3b3IeNkWm-iRCa1Ug/view?usp=drive_link)
+Please access the screen recording of the gameplay demo either in the **`Documentations/`** folder (`Documentations/Prototype 2 Demo.mp4`) or through this link: (https://drive.google.com/file/d/14I8R7HA2IF3zM2uL0DydPlyFnTYWEgK4/view?usp=drive_link)
 
 ---
 
 ## Level Overview
 
-This project is a 3D survival corridor level inspired by the iconic Resident Evil laser corridor sequence. Players must navigate down the hall to reach the end while dodging incoming laser hazards and utilizing active floor bonus panels.
+Converted from the laser room corridor level into a first-person stealth level, players must navigate through a corridor guarded by moving hazards. Players can use a flashlight to reveal hidden wall secrets and inspect hazard danger zones.
 
 ### Key Features & Mechanics
-- **Laser:** Continuously spawn at the end of the corridor and travel toward the player, dealing damage on contact with the character.
-- **Healing Panels:** Instantly restore player health when stepped on (only triggers if the player is not at full health).
-- **Speed Boost Panels:** Grants a temporary movement and sprint speed multiplier.
-- **Slow Motion Panels:** Temporarily slows global time (`Time.timeScale`) to help time and dodge fast laser waves.
+
+- **Moving Hazards:** Kinematic hazard obstacles patrol back and forth across the corridor using smooth ping-pong movement.
+- **Stealth & Line-of-Sight Detection:** Hazards use `Physics.CheckSphere` for proximity detection and a `Physics.Raycast` to check for direct line-of-sight.
+- **Flashlight Mechanic:** Toggled using the **`F`** key. When active, it scans objects inside the spotlight's light cone combined with line-of-sight raycasts to prevent detecting objects through walls.
+- **Hidden Objects:** Secret walls are placed on the `HiddenObject` layer remain invisible until illuminated by the flashlight beam.
+- **Hazard Danger Zone Visualizer:** Shining the flashlight on a moving hazard calls `Reveal()` on its `HazardZoneMesh`, displaying a translucent red sphere dynamically auto-scaled to its exact detection radius.
